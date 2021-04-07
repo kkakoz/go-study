@@ -10,14 +10,14 @@ import (
 
 type Hello struct{}
 
-// Call is a single request handler called via client.Call or the generated client code
+// Call is a single request handler called via greet_client.Call or the generated greet_client code
 func (e *Hello) Call(ctx context.Context, req *hello.Request, rsp *hello.Response) error {
 	log.Info("Received Hello.Call request")
 	rsp.Msg = "Hello " + req.Name
 	return nil
 }
 
-// Stream is a server side stream handler called via client.Stream or the generated client code
+// Stream is a server side stream handler called via greet_client.Stream or the generated greet_client code
 func (e *Hello) Stream(ctx context.Context, req *hello.StreamingRequest, stream hello.Hello_StreamStream) error {
 	log.Infof("Received Hello.Stream request with count: %d", req.Count)
 
@@ -33,7 +33,7 @@ func (e *Hello) Stream(ctx context.Context, req *hello.StreamingRequest, stream 
 	return nil
 }
 
-// PingPong is a bidirectional stream handler called via client.Stream or the generated client code
+// PingPong is a bidirectional stream handler called via greet_client.Stream or the generated greet_client code
 func (e *Hello) PingPong(ctx context.Context, stream hello.Hello_PingPongStream) error {
 	for {
 		req, err := stream.Recv()

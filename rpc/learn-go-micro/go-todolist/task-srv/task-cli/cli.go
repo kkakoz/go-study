@@ -12,7 +12,7 @@ func main() {
 	// 在日志中打印文件路径，便于调试代码
 	log.SetFlags(log.Llongfile)
 	// 客户端也注册为服务
-	server := micro.NewService(micro.Name("go.micro.client.task"))
+	server := micro.NewService(micro.Name("go.micro.greet_client.task"))
 	server.Init()
 	taskService := pb.NewTaskService("go.micro.service.task", server.Client())
 	// 调用服务生成三条任务

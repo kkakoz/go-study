@@ -12,7 +12,7 @@ import (
 import (
 	context "context"
 	api "github.com/micro/go-micro/v2/api"
-	client "github.com/micro/go-micro/v2/client"
+	client "github.com/micro/go-micro/v2/greet_client"
 	server "github.com/micro/go-micro/v2/server"
 )
 
