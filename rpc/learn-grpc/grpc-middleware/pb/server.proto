@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option go_package = "./;pb";
+
+
+service SimpleServer {
+  rpc Route(SimpleRequest) returns(SimpleResponse){};
+}
+
+message SimpleRequest{
+  string data = 1;
+}
+
+message SimpleResponse{
+  string value = 1;
+}

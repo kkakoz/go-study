@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option go_package = "./;pb";
+
+
+service BothStreamServer {
+  rpc Conversations(stream StreamRequest) returns(stream StreamResponse){};
+}
+
+message StreamRequest{
+  string request = 1;
+}
+
+message StreamResponse{
+  string answer = 2;
+}
