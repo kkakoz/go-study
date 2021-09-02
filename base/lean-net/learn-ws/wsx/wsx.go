@@ -9,13 +9,13 @@ type WsConn struct {
 	wsSocket    *websocket.Conn
 	readHandler ReadHandler
 	errHandler  ErrHandler
-	cancenFunc  context.CancelFunc
+	cancelFunc  context.CancelFunc
 	ctx         context.Context
 }
 
 func NewWsConn(ctx context.Context, wsSocket *websocket.Conn, readHandler ReadHandler, errHandler ErrHandler) *WsConn {
 	ctx, cancelFunc := context.WithCancel(ctx)
-	return &WsConn{ctx: ctx, wsSocket: wsSocket, readHandler: readHandler, errHandler: errHandler, cancenFunc: cancelFunc}
+	return &WsConn{ctx: ctx, wsSocket: wsSocket, readHandler: readHandler, errHandler: errHandler, cancelFunc: cancelFunc}
 }
 
 type Writer interface {
@@ -32,12 +32,12 @@ func (w *WsConn) Start() {
 		default:
 			_, data, err := w.wsSocket.ReadMessage()
 			if err != nil {
-				w.errHandler(err, w.wsSocket, w.cancenFunc)
+				w.errHandler(err, w.wsSocket, w.cancelFunc)
 				continue
 			}
 			err = w.readHandler(w.wsSocket, data)
 			if err != nil {
-				w.errHandler(err, w.wsSocket, w.cancenFunc)
+				w.errHandler(err, w.wsSocket, w.cancelFunc)
 				continue
 			}
 		}

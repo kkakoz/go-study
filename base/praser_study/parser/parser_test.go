@@ -1,4 +1,4 @@
-package tools
+package parser
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 
 func TestLoadFiles(t *testing.T)  {
 
-	innerstructs, err := loadGoFiles("./", "learn-go/base/praser_study/tools", "model.go")
+	innerstructs, err := LoadGoFile("./", "learn-go/base/praser_study/parser", "test_model.go")
 	if err != nil {
 		t.Fatal(err)
 	}
