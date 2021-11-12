@@ -47,8 +47,8 @@ func TestHttp(t *testing.T) {
 		return ctx.SendString("a")
 	})
 
-	app.Get("/temp", func(ctx *fiber.Ctx) error {
-		return ctx.SendFile(fmt.Sprintf("./temp.xlsx"))
+	app.Get("/test/test", func(ctx *fiber.Ctx) error {
+		return ctx.SendFile("./test.xls")
 	})
 
 	err := app.Listen(":10010")

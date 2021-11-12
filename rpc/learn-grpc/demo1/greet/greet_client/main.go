@@ -15,7 +15,8 @@ const (
 )
 
 func main() {
-	conn, err := grpc.Dial(address, grpc.WithInsecure())
+	//conn, err := grpc.Dial(address, grpc.WithInsecure())
+	conn, err := grpc.Dial("dns:///www.baidu.com", grpc.WithInsecure())
 	if err != nil {
 		log.Fatalf("did not connect: %v", err)
 	}

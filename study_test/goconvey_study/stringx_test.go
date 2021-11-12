@@ -21,4 +21,8 @@ func TestStringSliceEqual(t *testing.T) {
 			So(StringSliceEqual(a, b), ShouldBeFalse)
 		},
 	)
+
+	Convey("equal", t, func() {
+		So(2.0, ShouldEqual, 2)
+	})
 }
