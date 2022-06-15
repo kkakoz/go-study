@@ -7,10 +7,10 @@ import (
 	"syscall"
 )
 
-func main()  {
+func main() {
 	cmd := exec.Command("sh")
 	cmd.SysProcAttr = &syscall.SysProcAttr{
-		Cloneflags: syscall.CLONE_NEWUTS,
+		// Cloneflags: syscall.CLONE_NEWUTS,
 	}
 	cmd.Stdin = os.Stdin
 	cmd.Stdout = os.Stdout
@@ -21,14 +21,14 @@ func main()  {
 	}
 }
 
-//type XXX struct {
+// type XXX struct {
 //	db *gorm.DB
-//}
+// }
 //
-//func NewXXX() XXX {
+// func NewXXX() XXX {
 //	return XXX{db: GetDB()}
-//}
+// }
 //
-//func (x XXX) Query() {
+// func (x XXX) Query() {
 //	x.db.Find()
-//}
+// }

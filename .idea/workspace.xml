@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31327d80-e83d-4955-b7c7-4beec9484e08" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed/redisx/bloom_filter/bloom_filter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed/redisx/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed/redisx/geo/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed/redisx/hash/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed/redisx/hyperlog/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed/redisx/list/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed/redisx/set/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed/redisx/str/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed/redisx/use/late_queue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed/redisx/use/limit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed/redisx/use/lock.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed/redisx/use/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed/redisx/use/msg_queue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/distributed/redisx/zset/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/learn-go.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/go-study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/test/echotest/echo_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/test/echotest/echo_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/test/tt_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/base/test/tt_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mongodb/demo1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/distributed/redisx/use/bit.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/demo1/demo.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/demo1/demo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/context.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/context.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/education.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/education.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/education/education.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/education/education.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/education/where.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/education/where.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/education_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/education_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/education_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/education_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/education_query.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/education_query.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/education_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/education_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/ent.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/ent.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/enttest/enttest.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/enttest/enttest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/generate.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/generate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/hook/hook.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/hook/hook.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/institution.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/institution.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/institution/institution.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/institution/institution.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/institution/where.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/institution/where.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/institution_create.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/institution_create.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/institution_delete.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/institution_delete.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/institution_query.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/institution_query.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/institution_update.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/institution_update.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/migrate/migrate.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/migrate/migrate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/migrate/schema.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/migrate/schema.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/mutation.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/mutation.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/predicate/predicate.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/predicate/predicate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/runtime.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/runtime.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/runtime/runtime.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/runtime/runtime.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/schema/education.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/schema/education.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/schema/institution.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/schema/institution.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mysql/entdemo/ent/tx.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/entdemo/ent/tx.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/redis/demo1.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/namespace/demo1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/docker/namespace/demo1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../dev/go1.18/go1.18" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2AaxZxWPXdfzADNBgk2T2k1GD2C" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "E:/code/go/go-study/distributed/redisx",
+    "settings.editor.selected.configurable": "go.sdk",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\go\go-study\distributed\redisx" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code\go\go-study\distributed\redis" />
+      <recent name="E:\code\go\go-study\distributed\redis\str" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build distributed/redisx/geo">
+    <configuration name="go build distributed/redisx/geo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-study" />
+      <working_directory value="$PROJECT_DIR$/distributed" />
+      <kind value="PACKAGE" />
+      <package value="distributed/redisx/geo" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/distributed/redisx/geo/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build distributed/redisx/hyperlog" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-study" />
+      <working_directory value="$PROJECT_DIR$/distributed" />
+      <kind value="PACKAGE" />
+      <package value="distributed/redisx/hyperlog" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/distributed/redisx/hyperlog/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build distributed/redisx/set" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-study" />
+      <working_directory value="$PROJECT_DIR$/distributed" />
+      <kind value="PACKAGE" />
+      <package value="distributed/redisx/set" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/distributed/redisx/set/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build distributed/redisx/use" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-study" />
+      <working_directory value="$PROJECT_DIR$/distributed" />
+      <kind value="PACKAGE" />
+      <package value="distributed/redisx/use" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/distributed/redisx/use/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build distributed/redisx/zset" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-study" />
+      <working_directory value="$PROJECT_DIR$/distributed" />
+      <kind value="PACKAGE" />
+      <package value="distributed/redisx/zset" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/distributed/redisx/zset/main.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build distributed/redisx/geo" />
+        <item itemvalue="Go Build.go build distributed/redisx/use" />
+        <item itemvalue="Go Build.go build distributed/redisx/hyperlog" />
+        <item itemvalue="Go Build.go build distributed/redisx/zset" />
+        <item itemvalue="Go Build.go build distributed/redisx/set" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="https://goproxy.cn,direct" />
+      </map>
+    </environment>
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
